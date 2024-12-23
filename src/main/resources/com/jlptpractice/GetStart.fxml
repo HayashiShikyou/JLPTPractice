@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefWidth="1140.0" spacing="30.0" xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.Controller">
+    <padding>
+        <Insets bottom="5.0"/>
+    </padding>
+    <VBox alignment="CENTER" spacing="30.0" VBox.vgrow="ALWAYS">
+        <Button mnemonicParsing="false" onAction="#switchLV" opacity="0.5" prefHeight="40.0" prefWidth="300.0"
+                style="-fx-border-color: bc002d;" text="Get Start" textFill="#bc002d" textOverrun="CLIP">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Button>
+        <HBox alignment="CENTER">
+            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="Get ready for your "
+                  textAlignment="CENTER">
+                <font>
+                    <Font name="SansSerif Regular" size="24.0"/>
+                </font>
+            </Text>
+            <Text fill="#bc002d" strokeType="OUTSIDE" strokeWidth="0.0" text="JLPT " textAlignment="CENTER">
+                <font>
+                    <Font name="SansSerif Regular" size="24.0"/>
+                </font>
+            </Text>
+            <Text fill="#4a4e68" strokeType="OUTSIDE" strokeWidth="0.0" text="exam practice">
+                <font>
+                    <Font name="SansSerif Regular" size="24.0"/>
+                </font>
+            </Text>
+        </HBox>
+        <Text fill="WHITE" lineSpacing="3.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="All content on this software is intended for practicing past JLPT question and sharing knowledge to help with JLPT exam preparation"
+              textAlignment="CENTER" wrappingWidth="866.0966835021973">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Text>
+    </VBox>
+    <Label text="\@2024 JLPT practice software, developed by MEZASU"/>
+</VBox>
