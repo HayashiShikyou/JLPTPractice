@@ -21,6 +21,14 @@ public class Question {
         this.test_id = test_id;
     }
 
+    public Question(String q_text, String a_1, String a_2, String a_3, String a_4) {
+        this.q_text = q_text;
+        this.a_1 = a_1;
+        this.a_2 = a_2;
+        this.a_3 = a_3;
+        this.a_4 = a_4;
+    }
+
     public int getQ_id() {
         return q_id;
     }

@@ -49,6 +49,7 @@ public class GetStart extends Application {
         scene = new Scene(root, 1140, 1080);
         primaryStage.setMinWidth(800);
         primaryStage.setMinHeight(600);
+        primaryStage.setMaximized(true);
         primaryStage.setScene(scene);
         primaryStage.setTitle("JLPT Practice App");
         primaryStage.show();
