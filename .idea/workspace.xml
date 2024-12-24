@@ -5,37 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionApp.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/GetStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/GetStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/MySQLConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HayashiShikyou&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HayashiShikyou/JLPTPractice.git&quot;,
+    &quot;accountId&quot;: &quot;4555f99e-b0be-42da-b6ad-9c3442e674d3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2qeWGjz4pE65lxq2HSbkdoh06j3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.GetStart.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.TestingDB.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.140625",
     "project.structure.side.proportion": "0.12647861"
@@ -50,11 +75,42 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735019923017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735019923017</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated" />
+      <created>1735023429276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735023429276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JLPTPractice$Main.ic" NAME="Main Coverage Results" MODIFIED="1735041740689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

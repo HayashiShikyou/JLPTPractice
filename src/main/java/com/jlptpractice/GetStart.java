@@ -19,12 +19,12 @@ import java.util.Objects;
 
 public class GetStart extends Application {
 
-    public static Stage stage;
+    private static Stage stage;
     public static Scene scene;
     public static FXMLLoader loader;
     public static Node info_node;
     public static Image bg;
-    public static BackgroundSize size;
+    public static BackgroundSize size = new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, true);
     public static BackgroundImage bg_img;
     public static VBox root = new VBox();
 
@@ -34,24 +34,32 @@ public class GetStart extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        size = new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, true);
-        bg = new Image(Objects.requireNonNull(getClass().getResourceAsStream("GetStart.jpg")));
-        bg_img = new BackgroundImage(bg, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, size);
-        root.setBackground(new Background(bg_img));
-
-        loader = new FXMLLoader(getClass().getResource("GetStart.fxml"));
-        info_node = loader.load();
-        VBox.setVgrow(info_node, Priority.ALWAYS);
-        root.getChildren().add(info_node);
-        root.setAlignment(Pos.TOP_CENTER);
-
         stage = primaryStage;
+        changeBG("GetStart.jpg");
+        root.setAlignment(Pos.TOP_CENTER);
         scene = new Scene(root, 1140, 1080);
+        primaryStage.setScene(scene);
         primaryStage.setMinWidth(800);
         primaryStage.setMinHeight(600);
         primaryStage.setMaximized(true);
-        primaryStage.setScene(scene);
         primaryStage.setTitle("JLPT Practice App");
-        primaryStage.show();
+        changeScene("GetStart.fxml");
     }
+
+    static void changeScene(String fxml) throws Exception {
+        loader = new FXMLLoader(GetStart.class.getResource(fxml));
+        info_node = loader.load();
+        VBox.setVgrow(info_node, Priority.ALWAYS);
+        root.getChildren().clear();
+        root.getChildren().add(info_node);
+        stage.getScene().setRoot(root);
+        stage.show();
+    }
+
+    static void changeBG(String file) {
+        bg = new Image(Objects.requireNonNull(GetStart.class.getResourceAsStream(file)));
+        bg_img = new BackgroundImage(bg, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, size);
+        root.setBackground(new Background(bg_img));
+    }
+
 }
