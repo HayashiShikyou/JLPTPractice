@@ -7,25 +7,28 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane style="-fx-background-color: ffeaee;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.QuestionRootCtrl">
+<BorderPane style="-fx-background-color: ffeaee;" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.QuestionRootCtrl">
     <center>
         <ScrollPane fitToHeight="true" fitToWidth="true">
-            <VBox fx:id="questions_view" style="-fx-spacing: 15px;" />
+            <VBox fx:id="questions_view" style="-fx-spacing: 15px;"/>
         </ScrollPane>
     </center>
     <right>
         <VBox alignment="BOTTOM_CENTER" spacing="40.0" BorderPane.alignment="BOTTOM_CENTER">
             <BorderPane.margin>
-                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
             </BorderPane.margin>
-            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: green;" text="Submit" textFill="WHITE">
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: green;"
+                    text="Submit" textFill="WHITE">
                 <font>
-                    <Font size="18.0" />
+                    <Font size="18.0"/>
                 </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#switchYM" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: red;" text="Cancel" textFill="WHITE">
+            <Button mnemonicParsing="false" onAction="#switchYM" prefHeight="40.0" prefWidth="120.0"
+                    style="-fx-background-color: red;" text="Cancel" textFill="WHITE">
                 <font>
-                    <Font size="18.0" />
+                    <Font size="18.0"/>
                 </font>
             </Button>
         </VBox>

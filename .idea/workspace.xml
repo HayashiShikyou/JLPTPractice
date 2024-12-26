@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/QuestionRoot.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionRootCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionRootCtrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +37,9 @@
     "accountId": "03c1511e-48ac-4fa6-97e5-bea8f6b74575"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -135,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735210650686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735211821882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735211821882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
