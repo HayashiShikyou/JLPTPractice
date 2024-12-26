@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <padding>
+        <Insets left="10.0"/>
+    </padding>
+    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Q1)けさ、はやしさんに　あいました。">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </Text>
+    <RadioButton fx:id="answer1" mnemonicParsing="false" text="１。きのうの　あさ、　はやしさんに　あいました。"
+                 wrapText="true">
+        <font>
+            <Font size="15.0"/>
+        </font>
+        <toggleGroup>
+            <ToggleGroup fx:id="answer"/>
+        </toggleGroup>
+    </RadioButton>
+    <RadioButton mnemonicParsing="false" text="２。きようの　ひる、　はやしさんに　あいました。" toggleGroup="$answer"
+                 wrapText="true">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </RadioButton>
+    <RadioButton mnemonicParsing="false" text="３。きようの　あさ、　はやしさんに　あいました。" toggleGroup="$answer"
+                 wrapText="true">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </RadioButton>
+    <RadioButton mnemonicParsing="false" text="４。きのうの　ひる、　はやしさんに　あいました。" toggleGroup="$answer"
+                 wrapText="true">
+        <font>
+            <Font size="15.0"/>
+        </font>
+    </RadioButton>
+    <Text strokeType="OUTSIDE" strokeWidth="0.0"
+          text="-----------------------------------------------------------------"/>
+</VBox>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="BOTTOM_CENTER" prefWidth="1140.0" spacing="40.0" xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.Controller">
+    <padding>
+        <Insets bottom="40.0"/>
+    </padding>
+    <HBox alignment="CENTER" spacing="10.0" VBox.vgrow="ALWAYS">
+        <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose">
+            <font>
+                <Font name="System Bold" size="36.0"/>
+            </font>
+        </Text>
+        <Text fill="#bc002d" strokeType="OUTSIDE" strokeWidth="0.0" text="Year">
+            <font>
+                <Font name="System Bold" size="36.0"/>
+            </font>
+        </Text>
+        <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="and">
+            <font>
+                <Font name="System Bold" size="36.0"/>
+            </font>
+        </Text>
+        <Text fill="#bc002d" strokeType="OUTSIDE" strokeWidth="0.0" text="Month">
+            <font>
+                <Font name="System Bold" size="36.0"/>
+            </font>
+        </Text>
+    </HBox>
+    <HBox alignment="CENTER" spacing="80.0" VBox.vgrow="ALWAYS">
+        <VBox alignment="CENTER" spacing="30.0">
+            <Button mnemonicParsing="false" onAction="#switchQA" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="7月　2024年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="7月　2023年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="7月　2022年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="7月　2021年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="7月　2020年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+        </VBox>
+        <VBox alignment="CENTER" spacing="30.0">
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="12月　2024年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="12月　2023年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="12月　2022年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="12月　2021年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0"
+                    style="-fx-background-color: bc002d;" text="12月　2020年" textFill="WHITE">
+                <font>
+                    <Font size="24.0"/>
+                </font>
+            </Button>
+        </VBox>
+    </HBox>
+    <Button mnemonicParsing="false" onAction="#switchLV" prefHeight="40.0" prefWidth="140.0"
+            style="-fx-background-color: a\4a4e69; -fx-border-color: bc002d;" text="Back" textFill="#bc002d">
+        <VBox.margin>
+            <Insets/>
+        </VBox.margin>
+        <font>
+            <Font name="System Bold" size="13.0"/>
+        </font>
+    </Button>
+</VBox>
