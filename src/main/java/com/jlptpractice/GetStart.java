@@ -20,13 +20,8 @@ import java.util.Objects;
 public class GetStart extends Application {
 
     private static Stage stage;
-    public static Scene scene;
-    public static FXMLLoader loader;
-    public static Node info_node;
-    public static Image bg;
-    public static BackgroundSize size = new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, true);
-    public static BackgroundImage bg_img;
-    public static VBox root = new VBox();
+    private static final VBox root = new VBox();
+    private static final BackgroundSize size = new BackgroundSize(BackgroundSize.AUTO, BackgroundSize.AUTO, false, false, true, true);
 
     public static void main(String[] args) {
         launch(args);
@@ -37,7 +32,7 @@ public class GetStart extends Application {
         stage = primaryStage;
         changeBG("GetStart.jpg");
         root.setAlignment(Pos.TOP_CENTER);
-        scene = new Scene(root, 1140, 1080);
+        Scene scene = new Scene(root, 1140, 1080);
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(800);
         primaryStage.setMinHeight(600);
@@ -46,9 +41,9 @@ public class GetStart extends Application {
         changeScene("GetStart.fxml");
     }
 
-    static void changeScene(String fxml) throws Exception {
-        loader = new FXMLLoader(GetStart.class.getResource(fxml));
-        info_node = loader.load();
+    public static void changeScene(String fxml) throws Exception {
+        FXMLLoader loader = new FXMLLoader(GetStart.class.getResource(fxml));
+        Node info_node = loader.load();
         VBox.setVgrow(info_node, Priority.ALWAYS);
         root.getChildren().clear();
         root.getChildren().add(info_node);
@@ -56,9 +51,9 @@ public class GetStart extends Application {
         stage.show();
     }
 
-    static void changeBG(String file) {
-        bg = new Image(Objects.requireNonNull(GetStart.class.getResourceAsStream(file)));
-        bg_img = new BackgroundImage(bg, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, size);
+    public static void changeBG(String file) {
+        Image bg = new Image(Objects.requireNonNull(GetStart.class.getResourceAsStream(file)));
+        BackgroundImage bg_img = new BackgroundImage(bg, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, size);
         root.setBackground(new Background(bg_img));
     }
 
