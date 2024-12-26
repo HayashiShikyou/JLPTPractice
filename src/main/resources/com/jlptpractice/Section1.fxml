@@ -12,34 +12,34 @@
     <padding>
         <Insets left="10.0"/>
     </padding>
-    <Text fx:id="question" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1)けさ、はやしさんに　あいました。">
+    <Text fx:id="txtQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1)けさ、はやしさんに　あいました。">
         <font>
             <Font size="15.0"/>
         </font>
     </Text>
-    <RadioButton fx:id="answer1" mnemonicParsing="false" text="１。きのうの　あさ、　はやしさんに　あいました。"
+    <RadioButton fx:id="rbAnswer1" mnemonicParsing="false" text="１。きのうの　あさ、　はやしさんに　あいました。"
                  wrapText="true">
         <font>
             <Font size="15.0"/>
         </font>
         <toggleGroup>
-            <ToggleGroup fx:id="answer"/>
+            <ToggleGroup fx:id="tgAnswer"/>
         </toggleGroup>
     </RadioButton>
-    <RadioButton fx:id="answer2" mnemonicParsing="false" text="２。きようの　ひる、　はやしさんに　あいました。"
-                 toggleGroup="$answer" wrapText="true">
+    <RadioButton fx:id="rbAnswer2" mnemonicParsing="false" text="２。きようの　ひる、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
             <Font size="15.0"/>
         </font>
     </RadioButton>
-    <RadioButton fx:id="answer3" mnemonicParsing="false" text="３。きようの　あさ、　はやしさんに　あいました。"
-                 toggleGroup="$answer" wrapText="true">
+    <RadioButton fx:id="rbAnswer3" mnemonicParsing="false" text="３。きようの　あさ、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
             <Font size="15.0"/>
         </font>
     </RadioButton>
-    <RadioButton fx:id="answer4" mnemonicParsing="false" text="４。きのうの　ひる、　はやしさんに　あいました。"
-                 toggleGroup="$answer" wrapText="true">
+    <RadioButton fx:id="rbAnswer4" mnemonicParsing="false" text="４。きのうの　ひる、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
             <Font size="15.0"/>
         </font>

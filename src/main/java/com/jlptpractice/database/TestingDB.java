@@ -26,6 +26,13 @@ public class TestingDB {
 
     public static void main(String[] args) {
         List<Question> question = selectQuestionTable();
-        System.out.println(question);
+        for (Question q : question) {
+            System.out.println(q.getQ_text());
+            System.out.println(q.getA_1());
+            System.out.println(q.getA_2());
+            System.out.println(q.getA_3());
+            System.out.println(q.getA_4());
+            System.out.println("===================");
+        }
     }
 }

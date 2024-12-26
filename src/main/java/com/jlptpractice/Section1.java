@@ -8,24 +8,27 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.text.Text;
 
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class Section1 implements Initializable {
 
-    public Text question;
-    public ToggleGroup answer;
-    public RadioButton answer1;
-    public RadioButton answer2;
-    public RadioButton answer3;
-    public RadioButton answer4;
+    public Text txtQuestion;
+    public ToggleGroup tgAnswer;
+    public RadioButton rbAnswer1;
+    public RadioButton rbAnswer2;
+    public RadioButton rbAnswer3;
+    public RadioButton rbAnswer4;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-//        Question q = TestingDB.selectQuestionTable();
-//        question.setText(q.getQ_text());
-//        answer1.setText(q.getA_1());
-//        answer2.setText(q.getA_2());
-//        answer3.setText(q.getA_3());
-//        answer4.setText(q.getA_4());
+        List<Question> listQ = TestingDB.selectQuestionTable();
+        for (Question q : listQ) {
+            txtQuestion.setText(q.getQ_text());
+            rbAnswer1.setText(q.getA_1());
+            rbAnswer2.setText(q.getA_2());
+            rbAnswer3.setText(q.getA_3());
+            rbAnswer4.setText(q.getA_4());
+        }
     }
 }
