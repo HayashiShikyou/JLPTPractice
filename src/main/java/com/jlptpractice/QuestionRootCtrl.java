@@ -37,7 +37,7 @@ public class QuestionRootCtrl implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         List<Question> listQ = TestingDB.selectQuestionTable();
         for (Question q : listQ) {
-            Section1.q = q;
+            Section1.question = q;
             setLoader();
         }
     }

@@ -17,15 +17,15 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer2;
     public RadioButton rbAnswer3;
     public RadioButton rbAnswer4;
-    static Question q;
+    static Question question;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        txtQuestion.setText(q.getQ_text());
-        rbAnswer1.setText(q.getA_1());
-        rbAnswer2.setText(q.getA_2());
-        rbAnswer3.setText(q.getA_3());
-        rbAnswer4.setText(q.getA_4());
+        txtQuestion.setText(question.getQ_text());
+        rbAnswer1.setText(question.getA_1());
+        rbAnswer2.setText(question.getA_2());
+        rbAnswer3.setText(question.getA_3());
+        rbAnswer4.setText(question.getA_4());
     }
 
 }
