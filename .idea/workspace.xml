@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JLPTPractice" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JLPTPractice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRoot.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/TestingDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/TestingDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/database/TestingDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jlptpractice/database/TestingDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/GetStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionPaneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionRootCtrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/database/MySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/database/TestingDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/model/Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/model/ExamSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/model/Level.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +74,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.GetStart.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.TestingDB.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241223/JLPTPractice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.140625",
-    "project.structure.side.proportion": "0.12647861",
-    "settings.editor.selected.configurable": "Settings.Markdown.SmartKeys"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetStart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestingDB.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241223/JLPTPractice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.140625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.12647861&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown.SmartKeys&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice" />
@@ -162,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735215710806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735217309328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735217309328</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
