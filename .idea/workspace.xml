@@ -9,7 +9,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated" />
+    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JLPTPractice/JLPTPractice.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JLPTPractice_jar/JLPTPractice.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/LevelPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/LevelPage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionPaneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRootCtrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/YearMonth.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/YearMonth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/MySQLConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/TestingDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/ExamSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Level.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionPaneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/GetStart.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/GetStart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/LevelPage.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/LevelPage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/YearMonth.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/YearMonth.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +104,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ_20241223/JLPTPractice",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/Library Assistant Software (copy)/LibraryAssistant",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.140625",
     "project.structure.side.proportion": "0.25115848",
     "settings.editor.selected.configurable": "vcs.Git"
@@ -195,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735298985317</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735299104534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735299104534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
