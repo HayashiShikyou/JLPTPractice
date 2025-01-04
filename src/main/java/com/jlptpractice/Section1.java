@@ -1,6 +1,6 @@
 package com.jlptpractice;
 
-import com.jlptpractice.model.Question;
+import com.jlptpractice.model.QuestionAnswer;
 import javafx.fxml.Initializable;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
@@ -17,15 +17,15 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer2;
     public RadioButton rbAnswer3;
     public RadioButton rbAnswer4;
-    static Question question;
+    static QuestionAnswer questionAnswer;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        txtQuestion.setText(question.getQ_text());
-        rbAnswer1.setText(question.getA_1());
-        rbAnswer2.setText(question.getA_2());
-        rbAnswer3.setText(question.getA_3());
-        rbAnswer4.setText(question.getA_4());
+        txtQuestion.setText(questionAnswer.getQuestion());
+        rbAnswer1.setText(questionAnswer.getAnswer1());
+        rbAnswer2.setText(questionAnswer.getAnswer2());
+        rbAnswer3.setText(questionAnswer.getAnswer3());
+        rbAnswer4.setText(questionAnswer.getAnswer4());
     }
 
 }

@@ -10,44 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel/QuestionInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel/QuestionInputCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/QuestionAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/inputPanel/QuestionInput.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JLPTPractice/JLPTPractice.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JLPTPractice_jar/JLPTPractice.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/GetStart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/LevelPage.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/LevelPage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionPaneController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/QuestionRootCtrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/Section1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/YearMonth.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/YearMonth.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/MySQLConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/database/TestingDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Answer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/ExamSection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Level.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/com/jlptpractice/model/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JLPTPractice/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionPaneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/GetStart.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/GetStart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/LevelPage.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/LevelPage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/Section1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/YearMonth.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jlptpractice/YearMonth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/GetStart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/GetStart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/LevelPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/LevelPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/YearMonth.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/YearMonth.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -94,7 +72,12 @@
     "Application.App.executor": "Run",
     "Application.GetStart.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ManageDB.executor": "Run",
+    "Application.QuestionInput.executor": "Run",
+    "Application.QuestionInputCtrl.executor": "Run",
     "Application.TestingDB.executor": "Run",
+    "Application.com.jlptpractice.QuestionInput.executor": "Run",
+    "Application.manageDB.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -104,23 +87,31 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/Library Assistant Software (copy)/LibraryAssistant",
+    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPTPractice",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.140625",
     "project.structure.side.proportion": "0.25115848",
     "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/inputPanel" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/fxml" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jlptpractice.inputPanel" />
       <recent name="com.jlptpractice" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.jlptpractice.GetStart" />
       <module name="JLPTPractice" />
@@ -128,6 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManageDB" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.jlptpractice.database.ManageDB" />
+      <module name="JLPTPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionInput" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.jlptpractice.inputPanel.QuestionInput" />
+      <module name="JLPTPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.QuestionInput" />
+      <item itemvalue="Application.ManageDB" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -242,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735299104534</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735788752036</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735788752036</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +279,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JLPTPractice$Main.ic" NAME="Main Coverage Results" MODIFIED="1735041740689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/JLPTPractice$Main.ic" NAME="Main Coverage Results" MODIFIED="1735985635054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

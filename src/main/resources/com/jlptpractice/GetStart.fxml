@@ -6,7 +6,7 @@
 <?import javafx.scene.text.*?>
 
 <VBox alignment="CENTER" prefWidth="1140.0" spacing="30.0" xmlns="http://javafx.com/javafx/17.0.12"
-      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.Controller">
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.controller.Controller">
     <padding>
         <Insets bottom="5.0"/>
     </padding>

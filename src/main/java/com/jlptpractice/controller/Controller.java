@@ -1,4 +1,4 @@
-package com.jlptpractice;
+package com.jlptpractice.controller;
 
 import static com.jlptpractice.GetStart.changeBG;
 import static com.jlptpractice.GetStart.changeScene;

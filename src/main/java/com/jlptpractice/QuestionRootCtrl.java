@@ -1,14 +1,13 @@
 package com.jlptpractice;
 
-import com.jlptpractice.database.TestingDB;
-import com.jlptpractice.model.Question;
+import com.jlptpractice.database.ManageDB;
+import com.jlptpractice.model.QuestionAnswer;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.layout.VBox;
 
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 import static com.jlptpractice.GetStart.changeBG;
@@ -35,10 +34,11 @@ public class QuestionRootCtrl implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        List<Question> listQ = TestingDB.selectQuestionTable();
-        for (Question q : listQ) {
-            Section1.question = q;
-            setLoader();
+        for (int i = 1; i <= 6; i++) {
+            for (QuestionAnswer qa : ManageDB.selectOneQuestion(5202407, 1, i, 5)) {
+                Section1.questionAnswer = qa;
+                setLoader();
+            }
         }
     }
 
