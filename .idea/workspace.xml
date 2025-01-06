@@ -10,19 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel/QuestionInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel/QuestionInputCtrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/QuestionAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/inputPanel/QuestionInput.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/TestingDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/GetStart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/GetStart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/LevelPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/LevelPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/YearMonth.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/YearMonth.fxml" afterDir="false" />
     </list>
@@ -42,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -67,38 +59,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.GetStart.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ManageDB.executor": "Run",
-    "Application.QuestionInput.executor": "Run",
-    "Application.QuestionInputCtrl.executor": "Run",
-    "Application.TestingDB.executor": "Run",
-    "Application.com.jlptpractice.QuestionInput.executor": "Run",
-    "Application.manageDB.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPTPractice",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.140625",
-    "project.structure.side.proportion": "0.25115848",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetStart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManageDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuestionInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuestionInputCtrl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestingDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.jlptpractice.QuestionInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.manageDB.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tzo/metro-workspace/10A-028/JAVA/JLPTPractice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.140625&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25115848&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/inputPanel" />
@@ -107,8 +99,8 @@
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/fxml" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.jlptpractice.inputPanel" />
       <recent name="com.jlptpractice" />
+      <recent name="com.jlptpractice.inputPanel" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -260,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735788752036</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1735994216823</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735994216823</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +268,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

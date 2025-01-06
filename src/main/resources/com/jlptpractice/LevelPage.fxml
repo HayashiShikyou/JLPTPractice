@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<VBox alignment="BOTTOM_CENTER" spacing="80.0" xmlns="http://javafx.com/javafx/17.0.12"
+<VBox alignment="BOTTOM_CENTER" spacing="80.0" xmlns="http://javafx.com/javafx/8.0.171"
       xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.controller.Controller">
     <padding>
         <Insets bottom="40.0"/>
@@ -19,9 +21,8 @@
                 <VBox.margin>
                     <Insets/>
                 </VBox.margin>
-                <Button mnemonicParsing="false" onAction="#switchYM" prefHeight="130.0" prefWidth="130.0"
-                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N5"
-                        textFill="WHITE">
+                <Button mnemonicParsing="false" onAction="#setN5" prefHeight="130.0" prefWidth="130.0"
+                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N5" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="36.0"/>
                     </font>
@@ -29,9 +30,8 @@
                         <Insets right="30.0"/>
                     </HBox.margin>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="130.0" prefWidth="130.0"
-                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N4"
-                        textFill="WHITE">
+                <Button mnemonicParsing="false" onAction="#setN4" prefHeight="130.0" prefWidth="130.0"
+                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N4" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="36.0"/>
                     </font>
@@ -41,9 +41,8 @@
                 <VBox.margin>
                     <Insets/>
                 </VBox.margin>
-                <Button mnemonicParsing="false" prefHeight="130.0" prefWidth="130.0"
-                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N3"
-                        textFill="WHITE">
+                <Button mnemonicParsing="false" onAction="#setN3" prefHeight="130.0" prefWidth="130.0"
+                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N3" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="36.0"/>
                     </font>
@@ -51,9 +50,8 @@
                         <Insets right="30.0"/>
                     </HBox.margin>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="130.0" prefWidth="130.0"
-                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N2"
-                        textFill="WHITE">
+                <Button mnemonicParsing="false" onAction="#setN2" prefHeight="130.0" prefWidth="130.0"
+                        style="-fx-background-radius: 100; -fx-background-color: bc002d;" text="N2" textFill="WHITE">
                     <font>
                         <Font name="System Bold" size="36.0"/>
                     </font>
@@ -79,26 +77,22 @@
             <HBox.margin>
                 <Insets/>
             </HBox.margin>
-            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="続けましょう。"
-                  wrappingWidth="20.0">
+            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="続けましょう。" wrappingWidth="20.0">
                 <font>
                     <Font name="System Bold" size="36.0"/>
                 </font>
             </Text>
-            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="あきらめずに努力を"
-                  wrappingWidth="20.0">
+            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="あきらめずに努力を" wrappingWidth="20.0">
                 <font>
                     <Font name="System Bold" size="36.0"/>
                 </font>
             </Text>
-            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="支え合いながら"
-                  wrappingWidth="20.0">
+            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="支え合いながら" wrappingWidth="20.0">
                 <font>
                     <Font name="System Bold" size="36.0"/>
                 </font>
             </Text>
-            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="日まで一緒に"
-                  wrappingWidth="20.0">
+            <Text fill="#4a4e69" strokeType="OUTSIDE" strokeWidth="0.0" text="日まで一緒に" wrappingWidth="20.0">
                 <font>
                     <Font name="System Bold" size="36.0"/>
                 </font>
