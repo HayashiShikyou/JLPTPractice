@@ -12,7 +12,7 @@ public class ManageDB {
 
     public static List<QuestionAnswer> selectOneQuestion(int testId, int sectionId, int typeId, int levelId) {
         List<QuestionAnswer> list = new ArrayList<>();
-        String sql = "SELECT `qa_id`, `question`, `a1`.`answer`, `a2`.`answer`, `a3`.`answer`, `a4`.`answer`, `picture` FROM `question_answer` AS `qa` INNER JOIN `question` AS `q` ON `qa`.`question_id`=`q`.`question_id` INNER JOIN `answer` AS `a1` ON `answer1`=`a1`.`answer_id` INNER JOIN `answer` AS `a2` ON `answer2`=`a2`.`answer_id` INNER JOIN `answer` AS `a3` ON `answer3`=`a3`.`answer_id` INNER JOIN `answer` AS `a4` ON `answer4`=`a4`.`answer_id` INNER JOIN `test` AS `t` ON `q`.`test_id`=`t`.`test_id` WHERE `q`.`test_id`=? && `section_id`=? && `type_id`=? &&`level_id`=?";
+        String sql = "SELECT `qa_id`, `question`, `a1`.`answer`, `a2`.`answer`, `a3`.`answer`, `a4`.`answer`, `type`, `picture` FROM `question_answer` AS `qa` INNER JOIN `question` AS `q` ON `qa`.`question_id`=`q`.`question_id` INNER JOIN `answer` AS `a1` ON `answer1`=`a1`.`answer_id` INNER JOIN `answer` AS `a2` ON `answer2`=`a2`.`answer_id` INNER JOIN `answer` AS `a3` ON `answer3`=`a3`.`answer_id` INNER JOIN `answer` AS `a4` ON `answer4`=`a4`.`answer_id` INNER JOIN `test` AS `t` ON `q`.`test_id`=`t`.`test_id` INNER JOIN `type` AS `ty` ON `q`.`type_id`=`ty`.`type_id` WHERE `q`.`test_id`=? && `section_id`=? && `q`.`type_id`=? && `level_id`=?";
         try (Connection connection = MySQLConnection.connect(); PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setInt(1, testId);
             statement.setInt(2, sectionId);
@@ -20,7 +20,7 @@ public class ManageDB {
             statement.setInt(4, levelId);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
-                list.add(new QuestionAnswer(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4), resultSet.getString(5), resultSet.getString(6), resultSet.getBlob(7)));
+                list.add(new QuestionAnswer(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3), resultSet.getString(4), resultSet.getString(5), resultSet.getString(6), resultSet.getString(7), resultSet.getBlob(8)));
             }
             connection.close();
             statement.close();

@@ -18,7 +18,9 @@ public class QuestionRootCtrl implements Initializable {
     public VBox questions_view;
     public static int testId;
     public static int sectionId;
+    public static int typeId;
     public static int lvlId;
+    public static int preTypeId = QuestionRootCtrl.typeId;
 
     public void switchYM() throws Exception {
         changeBG("YearMonth.jpg");
@@ -29,6 +31,7 @@ public class QuestionRootCtrl implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Section1.fxml"));
             Node info_node = loader.load();
+//            questions_view.getChildren().add(txtType);
             questions_view.getChildren().add(info_node);
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -36,7 +39,7 @@ public class QuestionRootCtrl implements Initializable {
     }
 
     private void getData() {
-        for (int typeId = 1; typeId <= 6; typeId++) {
+        for (typeId = 1; typeId <= 6; typeId++) {
             for (QuestionAnswer qa : ManageDB.selectOneQuestion(testId, sectionId, typeId, lvlId)) {
                 Section1.questionAnswer = qa;
                 setLoader();

@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated" />
+    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/QuestionAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/model/QuestionAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/Section1.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,8 +127,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.QuestionInput" />
       <item itemvalue="Application.ManageDB" />
+      <item itemvalue="Application.QuestionInput" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -285,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736137412150</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1736137534870</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736137534870</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,13 +4,25 @@ import java.sql.Blob;
 
 public class QuestionAnswer {
 
-    private int qaId;
-    private String question;
-    private String answer1;
-    private String answer2;
-    private String answer3;
-    private String answer4;
-    private Blob picture;
+    private final int qaId;
+    private final String question;
+    private final String answer1;
+    private final String answer2;
+    private final String answer3;
+    private final String answer4;
+    private String type;
+    private final Blob picture;
+
+    public QuestionAnswer(int qaId, String question, String answer1, String answer2, String answer3, String answer4, String type, Blob picture) {
+        this.qaId = qaId;
+        this.question = question;
+        this.answer1 = answer1;
+        this.answer2 = answer2;
+        this.answer3 = answer3;
+        this.answer4 = answer4;
+        this.type = type;
+        this.picture = picture;
+    }
 
     public QuestionAnswer(int qaId, String question, String answer1, String answer2, String answer3, String answer4, Blob picture) {
         this.qaId = qaId;
@@ -44,6 +56,10 @@ public class QuestionAnswer {
 
     public String getAnswer4() {
         return answer4;
+    }
+
+    public String getType() {
+        return type;
     }
 
     public Blob getPicture() {

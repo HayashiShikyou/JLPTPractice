@@ -11,6 +11,7 @@ import java.util.ResourceBundle;
 
 public class Section1 implements Initializable {
 
+    public Text txtType;
     public Text txtQuestion;
     public ToggleGroup tgAnswer;
     public RadioButton rbAnswer1;
@@ -21,6 +22,10 @@ public class Section1 implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
+            txtType.setText(questionAnswer.getType());
+            QuestionRootCtrl.preTypeId = QuestionRootCtrl.typeId;
+        }
         txtQuestion.setText(questionAnswer.getQuestion());
         rbAnswer1.setText(questionAnswer.getAnswer1());
         rbAnswer2.setText(questionAnswer.getAnswer2());
