@@ -7,37 +7,47 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jlptpractice.Section1">
-    <Text fx:id="txtType" strokeType="OUTSIDE" strokeWidth="0.0" text="-----------------------------------------------------------------" />
-    <Text fx:id="txtQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1)けさ、はやしさんに　あいました。">
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.jlptpractice.Section1">
+    <Text fx:id="txtType" strokeType="OUTSIDE" strokeWidth="0.0"
+          text="-----------------------------------------------------------------">
         <font>
-            <Font size="15.0" />
+            <Font name="System Bold" size="15.0"/>
         </font>
     </Text>
-    <RadioButton fx:id="rbAnswer1" mnemonicParsing="false" text="１。きのうの　あさ、　はやしさんに　あいました。" wrapText="true">
+    <Text fx:id="txtQuestion" strokeType="OUTSIDE" strokeWidth="0.0" text="Q1)けさ、はやしさんに　あいました。">
         <font>
-            <Font size="15.0" />
+            <Font size="15.0"/>
+        </font>
+    </Text>
+    <RadioButton fx:id="rbAnswer1" mnemonicParsing="false" text="１。きのうの　あさ、　はやしさんに　あいました。"
+                 wrapText="true">
+        <font>
+            <Font size="15.0"/>
         </font>
         <toggleGroup>
-            <ToggleGroup fx:id="tgAnswer" />
+            <ToggleGroup fx:id="tgAnswer"/>
         </toggleGroup>
     </RadioButton>
-    <RadioButton fx:id="rbAnswer2" mnemonicParsing="false" text="２。きようの　ひる、　はやしさんに　あいました。" toggleGroup="$tgAnswer" wrapText="true">
+    <RadioButton fx:id="rbAnswer2" mnemonicParsing="false" text="２。きようの　ひる、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
-            <Font size="15.0" />
+            <Font size="15.0"/>
         </font>
     </RadioButton>
-    <RadioButton fx:id="rbAnswer3" mnemonicParsing="false" text="３。きようの　あさ、　はやしさんに　あいました。" toggleGroup="$tgAnswer" wrapText="true">
+    <RadioButton fx:id="rbAnswer3" mnemonicParsing="false" text="３。きようの　あさ、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
-            <Font size="15.0" />
+            <Font size="15.0"/>
         </font>
     </RadioButton>
-    <RadioButton fx:id="rbAnswer4" mnemonicParsing="false" text="４。きのうの　ひる、　はやしさんに　あいました。" toggleGroup="$tgAnswer" wrapText="true">
+    <RadioButton fx:id="rbAnswer4" mnemonicParsing="false" text="４。きのうの　ひる、　はやしさんに　あいました。"
+                 toggleGroup="$tgAnswer" wrapText="true">
         <font>
-            <Font size="15.0" />
+            <Font size="15.0"/>
         </font>
     </RadioButton>
     <padding>
-        <Insets left="20.0" right="20.0" />
+        <Insets left="20.0" right="20.0"/>
     </padding>
 </VBox>
