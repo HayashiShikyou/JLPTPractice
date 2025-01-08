@@ -90,7 +90,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "tzo",
+    "git-widget-placeholder": "#2 on tzo",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ/JLPTPractice",
@@ -322,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736306386673</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1736306760758</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736306760758</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

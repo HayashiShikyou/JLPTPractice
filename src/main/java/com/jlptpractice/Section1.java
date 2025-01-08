@@ -23,15 +23,16 @@ public class Section1 implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
-            txtType.setText("問題 " + QuestionRootCtrl.typeNo + " " + questionAnswer.getType());
+            txtType.setText("問題 " + QuestionRootCtrl.qr.typeNo + " " + questionAnswer.getType());
             QuestionRootCtrl.preTypeId = QuestionRootCtrl.typeId;
-            QuestionRootCtrl.typeNo++;
+            QuestionRootCtrl.qr.typeNo++;
         }
-        txtQuestion.setText(questionAnswer.getQuestion());
+        txtQuestion.setText(QuestionRootCtrl.qr.questionNo + ") " + questionAnswer.getQuestion());
         rbAnswer1.setText(questionAnswer.getAnswer1());
         rbAnswer2.setText(questionAnswer.getAnswer2());
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
+        QuestionRootCtrl.qr.questionNo++;
     }
 
 }
