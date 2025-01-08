@@ -9,7 +9,6 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 import static com.jlptpractice.GetStart.changeBG;
@@ -45,7 +44,6 @@ public class QuestionRootCtrl implements Initializable {
     }
 
     private void getData() {
-        Section1.ls = ManageDB.correctAns();
         for (typeId = 1; typeId <= 6; typeId++) {
             for (QuestionAnswer qa : ManageDB.selectOneQuestion(testId, sectionId, typeId, lvlId)) {
                 Section1.questionAnswer = qa;
@@ -79,7 +77,6 @@ public class QuestionRootCtrl implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        sectionId = 0;
         changeSection();
     }
 
