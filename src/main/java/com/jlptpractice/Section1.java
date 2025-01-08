@@ -33,6 +33,11 @@ public class Section1 implements Initializable {
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
         QuestionRootCtrl.qr.questionNo++;
+
+        rbAnswer1.setOnAction(e ->System.out.println(questionAnswer.getAnswer1()));
+        rbAnswer2.setOnAction(e ->System.out.println(rbAnswer2.getText()));
+        rbAnswer3.setOnAction(e ->System.out.println(rbAnswer3.getText()));
+        rbAnswer4.setOnAction(e ->System.out.println(rbAnswer4.getText()));
     }
 
 }

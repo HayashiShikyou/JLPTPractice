@@ -5,6 +5,7 @@ import com.jlptpractice.model.QuestionAnswer;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
+import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
 import java.net.URL;
@@ -16,6 +17,7 @@ import static com.jlptpractice.GetStart.changeScene;
 public class QuestionRootCtrl implements Initializable {
 
     public VBox questions_view;
+    public Button btnNext;
     public static int testId;
     public static int sectionId;
     public static int typeId;
@@ -35,7 +37,6 @@ public class QuestionRootCtrl implements Initializable {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Section1.fxml"));
             Node info_node = loader.load();
-//            questions_view.getChildren().add(txtType);
             questions_view.getChildren().add(info_node);
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -51,14 +52,22 @@ public class QuestionRootCtrl implements Initializable {
         }
     }
 
-    public void nextSection() {
+    public void changeSection() {
         questions_view.getChildren().clear();
-        if (sectionId == 1) {
-            sectionId = 2;
-        } else if (sectionId == 2) {
-            sectionId = 3;
-        } else if (sectionId == 3) {
-            System.out.println("Hello");
+        switch (sectionId) {
+            case 0:
+                sectionId = 1;
+                break;
+            case 1:
+                sectionId = 2;
+                break;
+            case 2:
+                sectionId = 3;
+                btnNext.setText("Submit");
+                break;
+            case 3:
+                System.out.println("Hello");
+                break;
         }
         qr.questionNo = 1;
         getData();
@@ -68,12 +77,7 @@ public class QuestionRootCtrl implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        questions_view.getChildren().clear();
-        sectionId = 1;
-        qr.questionNo = 1;
-        getData();
-        qr.typeNo = 1;
-        qr.questionNo = 1;
+        changeSection();
     }
 
 }
