@@ -5,6 +5,7 @@ import com.jlptpractice.model.QuestionAnswer;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,6 +28,22 @@ public class ManageDB {
             resultSet.close();
             return list;
         } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static List<String> correctAns() {
+        List<String> list = new ArrayList<>();
+        String sql = "SELECT `answer` FROM answer WHERE `correct`=1";
+        try (Connection connection = MySQLConnection.connect(); PreparedStatement statement = connection.prepareStatement(sql); ResultSet resultSet = statement.executeQuery()) {
+            while (resultSet.next()) {
+                list.add(resultSet.getString(1));
+            }
+            connection.close();
+            statement.close();
+            resultSet.close();
+            return list;
+        } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
