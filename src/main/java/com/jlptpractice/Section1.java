@@ -20,8 +20,6 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer4;
     static QuestionAnswer questionAnswer;
 
-    // Some changes
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
@@ -34,7 +32,5 @@ public class Section1 implements Initializable {
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
     }
-
-    // more changes
 
 }
