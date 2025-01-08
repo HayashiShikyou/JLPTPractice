@@ -21,6 +21,10 @@ public class QuestionRootCtrl implements Initializable {
     public static int typeId;
     public static int lvlId;
     public static int preTypeId = QuestionRootCtrl.typeId;
+    public int typeNo = 1;
+    public int questionNo = 1;
+
+    public static QuestionRootCtrl qr = new QuestionRootCtrl();
 
     public void switchYM() throws Exception {
         changeBG("YearMonth.jpg");
@@ -49,15 +53,27 @@ public class QuestionRootCtrl implements Initializable {
 
     public void nextSection() {
         questions_view.getChildren().clear();
-        sectionId = 2;
+        if (sectionId == 1) {
+            sectionId = 2;
+        } else if (sectionId == 2) {
+            sectionId = 3;
+        } else if (sectionId == 3) {
+            System.out.println("Hello");
+        }
+        qr.questionNo = 1;
         getData();
+        qr.typeNo = 1;
+        qr.questionNo = 1;
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         questions_view.getChildren().clear();
         sectionId = 1;
+        qr.questionNo = 1;
         getData();
+        qr.typeNo = 1;
+        qr.questionNo = 1;
     }
 
 }

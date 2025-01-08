@@ -20,21 +20,19 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer4;
     static QuestionAnswer questionAnswer;
 
-    // Some changes
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
-            txtType.setText(questionAnswer.getType());
+            txtType.setText("問題 " + QuestionRootCtrl.qr.typeNo + " " + questionAnswer.getType());
             QuestionRootCtrl.preTypeId = QuestionRootCtrl.typeId;
+            QuestionRootCtrl.qr.typeNo++;
         }
-        txtQuestion.setText(questionAnswer.getQuestion());
+        txtQuestion.setText(QuestionRootCtrl.qr.questionNo + ") " + questionAnswer.getQuestion());
         rbAnswer1.setText(questionAnswer.getAnswer1());
         rbAnswer2.setText(questionAnswer.getAnswer2());
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
+        QuestionRootCtrl.qr.questionNo++;
     }
-
-    // more changes
 
 }
