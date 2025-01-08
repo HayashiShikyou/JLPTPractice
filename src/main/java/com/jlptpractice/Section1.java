@@ -23,8 +23,9 @@ public class Section1 implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
-            txtType.setText(questionAnswer.getType());
+            txtType.setText("問題 " + QuestionRootCtrl.typeNo + " " + questionAnswer.getType());
             QuestionRootCtrl.preTypeId = QuestionRootCtrl.typeId;
+            QuestionRootCtrl.typeNo++;
         }
         txtQuestion.setText(questionAnswer.getQuestion());
         rbAnswer1.setText(questionAnswer.getAnswer1());

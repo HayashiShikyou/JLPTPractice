@@ -21,6 +21,7 @@ public class QuestionRootCtrl implements Initializable {
     public static int typeId;
     public static int lvlId;
     public static int preTypeId = QuestionRootCtrl.typeId;
+    public static int typeNo = 1;
 
     public void switchYM() throws Exception {
         changeBG("YearMonth.jpg");
