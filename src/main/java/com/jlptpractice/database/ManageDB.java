@@ -48,12 +48,14 @@ public class ManageDB {
         }
     }
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
 //        for (int i = 1; i <= 6; i++) {
 //            for (QuestionAnswer a : selectOneQuestion(5202407, 1, i, 5)) {
 //                System.out.println(a.toString());
 //            }
 //        }
-//    }
+//        for (String cs : correctAns())
+//            System.out.println(cs);
+    }
 
 }

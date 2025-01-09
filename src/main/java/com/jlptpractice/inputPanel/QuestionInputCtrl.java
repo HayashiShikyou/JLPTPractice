@@ -1,15 +1,12 @@
 //package com.jlptpractice.inputPanel;
 //
 //import com.jlptpractice.database.MySQLConnection;
-//import javafx.fxml.Initializable;
 //import javafx.scene.control.TextField;
 //
-//import java.net.URL;
 //import java.sql.Connection;
 //import java.sql.PreparedStatement;
-//import java.util.ResourceBundle;
 //
-//public class QuestionInputCtrl implements Initializable {
+//public class QuestionInputCtrl {
 //
 //    public TextField questionInput;
 //    public TextField answerInput;
@@ -69,20 +66,13 @@
 //        }
 //    }
 //
-////    public void
-//
 //    public static void main(String[] args) {
-//        int start = 5;
-//        int end = 34;
-//        int js = 18;
+//        int start = 35;
+//        int end = 43;
+//        int js = 138;
 //        for (int i = start; i <= end; i++) {
 //            js = inputQnA(i, js);
 //        }
-//    }
-//
-//    @Override
-//    public void initialize(URL url, ResourceBundle resourceBundle) {
-//
 //    }
 //
 //}
