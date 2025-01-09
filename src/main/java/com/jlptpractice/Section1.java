@@ -21,6 +21,7 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer3;
     public RadioButton rbAnswer4;
     static QuestionAnswer questionAnswer;
+    static List<String> ls;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
