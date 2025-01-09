@@ -1,7 +1,5 @@
 package com.jlptpractice;
 
-import com.jlptpractice.database.ManageDB;
-
 public class AnswerSheet {
 
     private final String correctAns1;
