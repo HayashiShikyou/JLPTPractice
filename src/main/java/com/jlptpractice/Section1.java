@@ -7,6 +7,8 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.text.Text;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class Section1 implements Initializable {
@@ -19,6 +21,7 @@ public class Section1 implements Initializable {
     public RadioButton rbAnswer3;
     public RadioButton rbAnswer4;
     static QuestionAnswer questionAnswer;
+    static List<String> ls;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -33,6 +36,18 @@ public class Section1 implements Initializable {
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
         QuestionRootCtrl.qr.questionNo++;
+
+
+        List<String> lkl = new ArrayList<>();
+        lkl.add(questionAnswer.getAnswer1());
+        lkl.add(questionAnswer.getAnswer2());
+        lkl.add(questionAnswer.getAnswer3());
+        lkl.add(questionAnswer.getAnswer4());
+
+        rbAnswer1.setOnAction(e -> System.out.println(questionAnswer.getAnswer1()));
+        rbAnswer2.setOnAction(e -> System.out.println(rbAnswer2.getText()));
+        rbAnswer3.setOnAction(e -> System.out.println(rbAnswer3.getText()));
+        rbAnswer4.setOnAction(e -> System.out.println(rbAnswer4.getText()));
     }
 
 }

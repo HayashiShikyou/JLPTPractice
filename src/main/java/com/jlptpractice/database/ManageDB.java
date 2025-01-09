@@ -5,6 +5,7 @@ import com.jlptpractice.model.QuestionAnswer;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,6 +28,22 @@ public class ManageDB {
             resultSet.close();
             return list;
         } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static List<String> correctAns() {
+        List<String> list = new ArrayList<>();
+        String sql = "SELECT `answer`.`answer` FROM `question_answer` AS `qa` INNER JOIN `answer` ON `answer1`=`answer_id` || `answer2`=`answer_id` || `answer3`=`answer_id` || `answer4`=`answer_id` INNER JOIN `question` AS `q` ON `qa`.`question_id`=`q`.`question_id` INNER JOIN `test` AS `t` ON `q`.`test_id`=`t`.`test_id` WHERE `q`.`test_id`=5202407 && `section_id`=1 && `level_id`=5 && `correct`=1";
+        try (Connection connection = MySQLConnection.connect(); PreparedStatement statement = connection.prepareStatement(sql); ResultSet resultSet = statement.executeQuery()) {
+            while (resultSet.next()) {
+                list.add(resultSet.getString(1));
+            }
+            connection.close();
+            statement.close();
+            resultSet.close();
+            return list;
+        } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
