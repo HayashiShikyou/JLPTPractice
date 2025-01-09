@@ -1,7 +1,10 @@
 package com.jlptpractice;
 
+import java.util.List;
+
 public class AnswerSheet {
 
+    private List<String> q1;
     private final String correctAns1;
     private final String correctAns2;
     private final String correctAns3;

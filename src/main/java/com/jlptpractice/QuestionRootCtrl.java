@@ -9,8 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 
 import java.net.URL;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
 
 import static com.jlptpractice.GetStart.changeBG;
 import static com.jlptpractice.GetStart.changeScene;
@@ -26,6 +25,9 @@ public class QuestionRootCtrl implements Initializable {
     public static int preTypeId = QuestionRootCtrl.typeId;
     public int typeNo = 1;
     public int questionNo = 1;
+    static List<String> correctAns;
+    static List<String> userAns = new ArrayList<>();
+    static int correct;
 
     public static QuestionRootCtrl qr = new QuestionRootCtrl();
 
@@ -45,7 +47,7 @@ public class QuestionRootCtrl implements Initializable {
     }
 
     private void getData() {
-        Section1.ls = ManageDB.correctAns();
+        correctAns = ManageDB.correctAns();
         for (typeId = 1; typeId <= 6; typeId++) {
             for (QuestionAnswer qa : ManageDB.selectOneQuestion(testId, sectionId, typeId, lvlId)) {
                 Section1.questionAnswer = qa;
@@ -54,7 +56,16 @@ public class QuestionRootCtrl implements Initializable {
         }
     }
 
+    public void checkAnswer() {
+        for (String usa : userAns) {
+            if (Objects.equals(usa, ManageDB.correctAns(testId, sectionId, lvlId, usa))) {
+                correct++;
+            }
+        }
+    }
+
     public void changeSection() {
+        checkAnswer();
         questions_view.getChildren().clear();
         switch (sectionId) {
             case 0:
@@ -68,7 +79,6 @@ public class QuestionRootCtrl implements Initializable {
                 btnNext.setText("Submit");
                 break;
             case 3:
-                System.out.println("Hello");
                 break;
         }
         qr.questionNo = 1;

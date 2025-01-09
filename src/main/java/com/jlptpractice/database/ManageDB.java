@@ -48,7 +48,28 @@ public class ManageDB {
         }
     }
 
+    public static String correctAns(int testId, int sectionId, int levelId, String userAns) {
+        String result = null;
+//        String sql = "SELECT `answer`.`answer` FROM `question_answer` AS `qa` INNER JOIN `answer` ON `answer1`=`answer_id` || `answer2`=`answer_id` || `answer3`=`answer_id` || `answer4`=`answer_id` INNER JOIN `question` AS `q` ON `qa`.`question_id`=`q`.`question_id` INNER JOIN `test` AS `t` ON `q`.`test_id`=`t`.`test_id` WHERE `q`.`test_id`=? && `section_id`=? && `level_id`=? && `correct`=1 && `answer`=?";
+        String sql = "SELECT `answer`.`answer` FROM `question_answer` AS `qa` INNER JOIN `answer` ON `answer1`=`answer_id` || `answer2`=`answer_id` || `answer3`=`answer_id` || `answer4`=`answer_id` INNER JOIN `question` AS `q` ON `qa`.`question_id`=`q`.`question_id` INNER JOIN `test` AS `t` ON `q`.`test_id`=`t`.`test_id` WHERE `q`.`test_id`=? && `section_id`=? && `level_id`=? && `correct`=1 && `answer`=?";
+        try (Connection connection = MySQLConnection.connect(); PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, testId);
+            statement.setInt(2, sectionId);
+            statement.setInt(3, levelId);
+            statement.setString(4, userAns);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) result = resultSet.getString(1);
+            connection.close();
+            statement.close();
+            resultSet.close();
+            return result;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void main(String[] args) {
+        System.out.println(ManageDB.correctAns(5202407, 1, 5, "みせ"));
 //        for (int i = 1; i <= 6; i++) {
 //            for (QuestionAnswer a : selectOneQuestion(5202407, 1, i, 5)) {
 //                System.out.println(a.toString());
