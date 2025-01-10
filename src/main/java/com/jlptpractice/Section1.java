@@ -9,6 +9,9 @@ import javafx.scene.text.Text;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import static com.jlptpractice.QuestionRootCtrl.qr;
+import static com.jlptpractice.QuestionRootCtrl.userAns;
+
 public class Section1 implements Initializable {
 
     public Text txtType;
@@ -22,8 +25,7 @@ public class Section1 implements Initializable {
 
     public void userAns() {
         RadioButton rb = (RadioButton) tgAnswer.getSelectedToggle();
-        if (!QuestionRootCtrl.userAns.contains(rb.getText()) || QuestionRootCtrl.userAns.isEmpty())
-            QuestionRootCtrl.userAns.add(rb.getText());
+        if (!userAns.contains(rb.getText()) || userAns.isEmpty()) userAns.add(rb.getText());
         rbAnswer1.setDisable(true);
         rbAnswer2.setDisable(true);
         rbAnswer3.setDisable(true);
@@ -33,17 +35,16 @@ public class Section1 implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (QuestionRootCtrl.preTypeId != QuestionRootCtrl.typeId) {
-            txtType.setText("問題 " + QuestionRootCtrl.qr.typeNo + " " + questionAnswer.getType());
+            txtType.setText("問題 " + qr.typeNo + " " + questionAnswer.getType());
             QuestionRootCtrl.preTypeId = QuestionRootCtrl.typeId;
-            QuestionRootCtrl.qr.typeNo++;
+            qr.typeNo++;
         }
-        txtQuestion.setText(QuestionRootCtrl.qr.questionNo + ") " + questionAnswer.getQuestion());
+        txtQuestion.setText(qr.questionNo + ") " + questionAnswer.getQuestion());
         rbAnswer1.setText(questionAnswer.getAnswer1());
         rbAnswer2.setText(questionAnswer.getAnswer2());
         rbAnswer3.setText(questionAnswer.getAnswer3());
         rbAnswer4.setText(questionAnswer.getAnswer4());
-        QuestionRootCtrl.qr.questionNo++;
-
+        qr.questionNo++;
 
         rbAnswer1.setOnAction(e -> userAns());
         rbAnswer2.setOnAction(e -> userAns());

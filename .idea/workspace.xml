@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JLPTPractice" />
+      <artifact name="JLPTPractice:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated" />
+    <list default="true" id="adcbf692-7c80-4576-bd6e-225084e2bd44" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/controller/ResultCtrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/test/AnswerChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/test/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/test/Audio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JLPTPractice_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JLPTPractice_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/GetStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/GetStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/QuestionRootCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/Section1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jlptpractice/database/ManageDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/QuestionRoot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jlptpractice/QuestionRoot.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +40,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -58,43 +86,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetStart.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ManageDB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuestionInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuestionInputCtrl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestingDB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.jlptpractice.QuestionInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.manageDB.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on tzo&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tzo/metro-workspace/10A-028/JAVA/JLPT_OQ/JLPTPractice&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.140625&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25115848&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnswerChecker.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.Audio.executor": "Run",
+    "Application.Audio2.executor": "Run",
+    "Application.GetStart.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ManageDB.executor": "Run",
+    "Application.QuestionInput.executor": "Run",
+    "Application.QuestionInputCtrl.executor": "Run",
+    "Application.TestingDB.executor": "Run",
+    "Application.com.jlptpractice.QuestionInput.executor": "Run",
+    "Application.manageDB.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JAR Application.JLPTPractice-1.0-SNAPSHOT.jar.executor": "Run",
+    "JAR Application.JLPTPractice.jar (1).executor": "Run",
+    "JAR Application.JLPTPractice.jar.executor": "Run",
+    "JAR Application.ServiceCreate.jar.executor": "Run",
+    "Maven.JLPTPractice [clean].executor": "Run",
+    "Maven.JLPTPractice [compile].executor": "Run",
+    "Maven.JLPTPractice [install].executor": "Run",
+    "Maven.JLPTPractice [org.apache.maven.plugins:maven-assembly-plugin:3.7.1:single].executor": "Run",
+    "Maven.JLPTPractice [org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile].executor": "Run",
+    "Maven.JLPTPractice [org.apache.maven.plugins:maven-install-plugin:3.1.2:install].executor": "Run",
+    "Maven.JLPTPractice [org.apache.maven.plugins:maven-shade-plugin:3.6.0:shade].executor": "Run",
+    "Maven.JLPTPractice [package].executor": "Run",
+    "Maven.JLPTPractice [test].executor": "Run",
+    "Maven.JLPTPractice [verify].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#3 on tzo",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/tzo/metro-workspace/10A-028/JAVA/JLPTPractice_PPT/JLPTPractice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.140625",
+    "project.structure.side.proportion": "0.13809082",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/controller" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/inputPanel" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jlptpractice/inputPanel" />
-      <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/jlptpractice/fxml" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -102,7 +148,7 @@
       <recent name="com.jlptpractice.inputPanel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JAR Application.JLPTPractice.jar">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.jlptpractice.GetStart" />
       <module name="JLPTPractice" />
@@ -124,11 +170,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JLPTPractice-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/JLPTPractice-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JLPTPractice.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JLPTPractice_jar2/JLPTPractice.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JLPTPractice.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JLPTPractice_jar/JLPTPractice.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServiceCreate.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/ServiceCreate.jar" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.QuestionInput" />
       <item itemvalue="Application.ManageDB" />
+      <item itemvalue="JAR Application.JLPTPractice.jar (1)" />
+      <item itemvalue="JAR Application.ServiceCreate.jar" />
+      <item itemvalue="JAR Application.JLPTPractice-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JAR Application.JLPTPractice.jar" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.JLPTPractice.jar" />
+        <item itemvalue="JAR Application.JLPTPractice.jar (1)" />
+        <item itemvalue="JAR Application.ServiceCreate.jar" />
+        <item itemvalue="JAR Application.JLPTPractice-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -331,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736434170203</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1736434199275</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736434199275</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +442,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JLPTPractice$Main.ic" NAME="Main Coverage Results" MODIFIED="1735985635054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

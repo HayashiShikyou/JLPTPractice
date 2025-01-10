@@ -38,6 +38,7 @@ public class GetStart extends Application {
         primaryStage.setMinHeight(600);
         primaryStage.setMaximized(true);
         primaryStage.setTitle("JLPT Practice App");
+        primaryStage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResourceAsStream("JLPT_app_icon.jpg"))));
         changeScene("GetStart.fxml");
     }
 
